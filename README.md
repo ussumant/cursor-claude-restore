@@ -12,6 +12,8 @@ Getting them back meant opening a terminal for each one, running `claude --resum
 
 A test run: three Claude sessions in one window, each on its own task, with the second tab in front. Then the window closes and comes back. It was shot in VS Code; the add-on is the same in Cursor.
 
+A 26-second clip of the same test, recorded live: [examples/demo.mp4](examples/demo.mp4).
+
 **Without Claude Restore**, the window comes back with one empty shell. The three sessions are gone.
 
 ![Without Claude Restore: the reopened window has one empty terminal](examples/before.png)
