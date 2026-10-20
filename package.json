@@ -1,0 +1,20 @@
+{
+  "name": "claude-restore",
+  "displayName": "Claude Restore",
+  "description": "Remembers the Claude Code sessions running in this window's terminals and brings them back in one click after the window closes.",
+  "version": "0.1.5",
+  "publisher": "ussumant",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/ussumant/cursor-claude-restore" },
+  "engines": { "vscode": "^1.80.0" },
+  "main": "./extension.js",
+  "activationEvents": ["onStartupFinished"],
+  "contributes": {
+    "commands": [
+      { "command": "claudeRestore.restore", "title": "Claude Restore: Restore sessions from last time" },
+      { "command": "claudeRestore.pick", "title": "Claude Restore: Choose sessions to restore" },
+      { "command": "claudeRestore.dismiss", "title": "Claude Restore: Forget sessions from last time" },
+      { "command": "claudeRestore.showLog", "title": "Claude Restore: Show log" }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+.git/**
+*.vsix
+test/**
+docs/**
