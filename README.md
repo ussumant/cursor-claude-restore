@@ -12,7 +12,9 @@ Getting them back meant opening a terminal for each one, running `claude --resum
 
 A test run: three Claude sessions in one window, each on its own task, with the second tab in front. Then the window closes and comes back. It was shot in VS Code; the add-on is the same in Cursor.
 
-A 26-second clip of the same test, recorded live: [examples/demo.mp4](examples/demo.mp4).
+A 26-second clip of the same test, recorded live (full quality: [examples/demo.mp4](examples/demo.mp4)):
+
+[![Three Claude tabs, the window closes, it reopens with one empty shell, and one click on Restore brings all three back in order](examples/demo.gif)](examples/demo.mp4)
 
 **Without Claude Restore**, the window comes back with one empty shell. The three sessions are gone.
 
