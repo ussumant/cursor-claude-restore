@@ -20,7 +20,7 @@ A test run: three Claude sessions in one window, each on its own task, with the 
 
 ![With Claude Restore: a toast lists the three sessions by title, with Restore, Choose and Dismiss](examples/after-toast.png)
 
-**One click on Restore** brings all three back. The tabs come back in the same order, with Claude's own titles, and the tab that was in front is in front again, mid-conversation.
+**One click on Restore** (in the toast, or `Restore Claude (3)` in the status bar; this run used the status-bar button) brings all three back. The tabs come back in the same order, with Claude's own titles, and the tab that was in front is in front again, mid-conversation.
 
 ![After Restore: three Claude tabs back in order, the second one in front](examples/after.png)
 
